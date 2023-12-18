@@ -13,8 +13,7 @@ Criar a Tabela de Calendário
 
 Primeiro, crie a tabela de calendário usando o seguinte script SQL:
 
-sql
-Copy code
+
 CREATE TABLE Calendario (
     Data DATE PRIMARY KEY,
     Ano INT,
@@ -27,8 +26,7 @@ Preencher a Tabela de Calendário
 
 Em seguida, preencha a tabela com datas. O script a seguir preenche a tabela do início de 2020 até o final de 2023:
 
-sql
-Copy code
+
 DECLARE @Data DATE = '2020-01-01';
 
 WHILE @Data <= '2023-12-31'
